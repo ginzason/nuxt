@@ -1,0 +1,36 @@
+{
+  "name": "exciting.starbucks",
+  "version": "1.0.0",
+  "description": "Exciting starbucks Web App",
+  "author": "dev@mycelebs.com",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "PORT=8081 nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jquery": "^3.3.1",
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.3.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.0",
+    "node-sass": "^4.9.1",
+    "prettier": "^1.13.7",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^7.0.3"
+  }
+}
