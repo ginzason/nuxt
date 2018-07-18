@@ -1,6 +1,6 @@
 # exciting.starbucks
 
-> Exciting Starbucks Web App
+> nuxt test
 
 ## Build Setup
 
